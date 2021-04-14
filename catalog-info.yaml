@@ -1,13 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: playback-order
-  description: Playback Order
-  tags:
-    - java
-    - playback
+  name: petstore
+  # This is an extra long description
+  description: The Petstore is an example API used to show features of the OpenAPI spec.
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
 spec:
   type: service
-  lifecycle: production
-  owner: user:guest
-  system: audio-playback
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - petstore
+    - streetlights
+    - hello-world
