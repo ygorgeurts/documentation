@@ -26,4 +26,4 @@ spec:
   owner: team-c
   system: petstore
   definition:
-    $text: ./openapi.yaml    
+    $text: https://dev.azure.com/rtl-nl/RTL%20Shared/_git/documentation?path=%2Fopenapi.yaml
