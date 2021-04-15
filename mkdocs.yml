@@ -1,9 +1,7 @@
-site_name: 'Example docs'
+site_name: 'Documentation Example'
 
 nav:
   - Home: index.md
-
-docs_dir: docs
 
 plugins:
   - techdocs-core
