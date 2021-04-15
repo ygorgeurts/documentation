@@ -3,5 +3,7 @@ site_name: 'Example docs'
 nav:
   - Home: index.md
 
+docs_dir: docs
+
 plugins:
   - techdocs-core
